@@ -1,0 +1,61 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# dotenv
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Mac
+.AppleDouble
+.LSOverride
+
+# Windows
+ehthumbs.db
+Desktop.ini
+
+# React Native (if any)
+.expo/
+
+# Misc
+*.tgz
+
+# Optional npm cache
+.npm
+
+# Lock files for other package managers
+pnpm-lock.yaml
+
+# Ignore local mongo db files
+dump/
+
+# Ignore IDE workspace files
+*.code-workspace
